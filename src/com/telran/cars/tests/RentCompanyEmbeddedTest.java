@@ -249,8 +249,6 @@ public class RentCompanyEmbeddedTest {
 
         RemovedCarData nC = new RemovedCarData(car, new ArrayList<>());
         assertEquals(nC, company.removeCar(REG_NUMBER));
-        //Написать тест, когда удаляется машина, у которой есть история.
-        //Проверить, возвращается ли список и удаляется ли из всех мэп
     }
 
     @Test
